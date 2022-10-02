@@ -1,7 +1,11 @@
 [package]
 name = "ref-into"
 version = "0.1.0"
+description = "Conversion from reference to owned"
 edition = "2021"
+repository = "https://github.com/bekircanagaoglu/ref-into"
+authors = ["Bekircan Agaoglu <bekircanagaoglu@gmail.com>"]
+readme = "README.md"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
