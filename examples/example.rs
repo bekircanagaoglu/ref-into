@@ -22,7 +22,7 @@ impl RefInto<ApiRoute> for Endpoints {
     fn ref_into(&self) -> ApiRoute {
         match self {
             Endpoints::Orders => ApiRoute("/api/v1/orders".to_string()),
-            Endpoints::Customers => ApiRoute("/api/v1/orders".to_string()),
+            Endpoints::Customers => ApiRoute("/api/v1/customers".to_string()),
         }
     }
 }
